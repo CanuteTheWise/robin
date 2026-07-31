@@ -360,9 +360,9 @@ else:
 
 
 # Main UI - logo and input
-_, logo_col, _ = st.columns(3)
-with logo_col:
-    st.image(".github/assets/robin_logo.png", width=200)
+st.title("🕵️ Robin")
+st.caption("Dark web OSINT — ratman4080 wired")
+# st.image removed — streamlit's image push was hanging the render pipeline.
 
 # Display text box and button
 with st.form("search_form", clear_on_submit=True):

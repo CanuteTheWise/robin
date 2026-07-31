@@ -175,3 +175,10 @@ cython_debug/
 
 # Vscode
 .vscode
+
+# --- Robin: local runtime artifacts (never commit) ---
+/investigations/        # saved OSINT runs — scraped dark-web content + queries
+/.playwright-mcp/       # browser QA snapshots / console dumps
+/server.log
+/stage.log
+/ROBIN-OPS.md           # private ops notebook + seed library (local only)
